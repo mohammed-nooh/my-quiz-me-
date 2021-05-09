@@ -45,7 +45,7 @@ var array =[
   },
   {
     question: "Which is my favorite  song? ",
-    answer: "hymn for weekend",
+    answer: "hymn for the weekend",
 
   },
 ]
