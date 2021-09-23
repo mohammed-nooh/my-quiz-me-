@@ -9,8 +9,7 @@ console.log("welcome "+ userName +" to Do YOU KNOW NOOH\n");
 
 function play(q,a){
   var ua=readlineSync.question(q);
-  
-  if(ua===a){
+  if(ua.toLowerCase()===a){
     console.log("you are right\n");
     score++
   }
@@ -45,8 +44,28 @@ var array =[
   },
   {
     question: "Which is my favorite  song? ",
-    answer: "hymn for the weekend",
+    answer: "senorita",
 
+  },
+  {
+    question: "which is my favourite city ",
+    answer: "new york",
+  },
+  {
+    question: "what is my favourite food ",
+    answer: "biryani",
+  },
+  {
+    question: "Which is my favourite movie ",
+    answer: "usual suspects",
+  },
+  {
+    question: "Which is my favourite TV show ",
+    answer: "game of thrones",
+  },
+  {
+    question: "Which is my favourite sport ",
+    answer: "basketball",
   },
 ]
 
@@ -62,15 +81,15 @@ console.log("congrats your final score is "+ score +"\n\n");
 var highscore=[
   {
     name:"kd",
-    score:"5",
+    score:"9",
   },
   {
     name:"jimin",
-    score:"4",
+    score:"8",
   },
   {
     name:"thadiyan",
-    score:"3",
+    score:"7",
   },
 ]
 
